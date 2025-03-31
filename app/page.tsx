@@ -3,14 +3,14 @@ import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <main className="container p-10">
+    <section className="container p-10">
       <h1 className="text-3xl font-bold text-center">Welcome to Our Store</h1>
       <p className="text-center mt-2 text-gray-600">
         Discover amazing products at unbeatable prices!
       </p>
 
       {/* Featured Products Section */}
-      <section className="mt-8 grid grid-cols-4 grid-rows-4 gap-x-6  bg-blue-300">
+      {/* <section className="mt-8 grid grid-cols-4 grid-rows-4 gap-x-6  bg-blue-300">
         <div className="border p-4 rounded-lg shadow">
           <Image
             src="/images/product1.jpg"
@@ -96,8 +96,7 @@ export default function HomePage() {
             </button>
           </Link>
         </div>
-        {/* Add more product cards here */}
-      </section>
-    </main>
+      </section> */}
+    </section>
   );
 }
