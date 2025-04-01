@@ -1,10 +1,13 @@
 import Header from "@/ui/Header";
+import CarouselProvider from "@/components/Carousel";
 
 export default function HomePage() {
   return (
     <div className="flex flex-col items-center justify-center bg-amber-700">
       <Header />
-      <section className="flex-grow"> Main content</section>
+      <section className="flex-grow">
+        <CarouselProvider />
+      </section>
     </div>
   );
 }
