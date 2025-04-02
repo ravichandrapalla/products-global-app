@@ -26,7 +26,7 @@ const CarouselProvider = () => {
           <CarouselItem key={index}>
             <div className="p-1">
               <Card>
-                <Card className="flex aspect-square items-center justify-center p-6">
+                <Card className="flex aspect-square items-center justify-center p-6 bg-blue-400 rounded-2xl border-2">
                   <span className="text-4xl font-semibold">{index + 1}</span>
                 </Card>
               </Card>

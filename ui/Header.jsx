@@ -3,13 +3,12 @@ import React from "react";
 
 const navLinks = [
   { name: "Login", path: "/login" },
-  { name: "About", path: "/about" },
-  { name: "Contact", path: "/contact" },
+  { name: "Mycart", path: "/cart" },
 ];
 
 const Header = () => {
   return (
-    <header className="h-15 w-full flex items-center justify-between p-4 border-b-zinc-100 border-b-1 bg-white shadow-md">
+    <header className="w-full flex items-center justify-between p-4 shadow-md h-14">
       <span>Logo</span>
       <nav className="">
         <ul className="list-none flex items-center gap-4">
